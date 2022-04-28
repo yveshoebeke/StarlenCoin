@@ -1,0 +1,3 @@
+export BC_CONFIG_PATH=/Users/yves/Projects/StarlenCoin/data/config/starlencoin.toml
+go run main.go
+

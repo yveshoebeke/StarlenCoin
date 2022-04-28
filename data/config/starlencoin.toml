@@ -1,0 +1,21 @@
+# StarlenCoin App configuration parameters.
+title = "StarlenCoin Configuration"
+
+[owner]
+name = "Bytesupply, LLC"
+url = "https://starlencoin.bytesupply.com/"
+contact = "yves.hoebeke@bytesupply.com"
+
+[datapaths]
+blocks = "/Users/yves/Projects/StarlenCoin/data/blocks"
+pending = "/Users/yves/Projects/StarlenCoin/data/pending"
+wallets = "/Users/yves/Projects/StarlenCoin/data/wallets"
+publickeys = "/Users/yves/Projects/StarlenCoin/data/wallets/.pubkeys"
+
+[mining]
+blocksize = 10  # Number of transactions allowed in a block. 0 indicates no limit.
+difficulty = 3	# Number of bits to be matched to patern, difficulty * 8 = number of bits.
+
+[rewards]
+minerreward = 0.012     # Coin reward when successfully mined a block.
+transactionfee = 0.0001	# Fee factor * trx amount to be paid per trx part of a successful mined block.
