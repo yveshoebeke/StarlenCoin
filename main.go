@@ -14,15 +14,7 @@ import (
 	"starlencoin.com/packages/wallets"
 )
 
-const (
-	BLOCKCHAINNAME = "Starlen"     // Name of this blockchain.
-	CRYPTONAME     = "StarlenCoin" // Name of the crypto currency.
-)
-
 var (
-	// CONFIGPATH = os.Getenv("BC_CONFIG_PATH") // Local example -> /Users/yves/Projects/StarlenCoin/data/config/config.json
-	// consoleReader             = bufio.NewReader(os.Stdin)   // Console reader
-	targetHash                = [32]byte{}
 	Cfg                       config.Config
 	c                         config.Config
 	ws                        wallets.Wallets
@@ -32,8 +24,7 @@ var (
 	n                         node.Node
 	bc                        blockchain.Blockchain
 	from, to, amount, comment string
-	selection, sig            string
-	user                      string
+	selection, sig, user      string
 )
 
 func main() {
