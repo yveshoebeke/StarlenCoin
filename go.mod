@@ -1,8 +1,8 @@
-module starlencoin.com/packages
+module starlencoin.com
 
-go 1.15
+go 1.18
 
 require (
-	github.com/BurntSushi/toml v1.0.0
-	golang.org/x/crypto v0.0.0-20220321153916-2c7772ba3064
+	github.com/BurntSushi/toml v1.1.0
+	golang.org/x/crypto v0.0.0-20220507011949-2cf3adece122
 )
